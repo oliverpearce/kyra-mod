@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "kyra",
+	"version": "${version}",
+	"name": "Kyra.",
+	"description": "i am messing around and this is a testament to the curiosity of mankind",
+	"authors": [
+		"silv3red"
+	],
+	"contact": {
+		"homepage": "https://github.com/oliverpearce",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kyra/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"silv3red.kyra.ExampleMod"
+		]
+	},
+	"mixins": [
+		"kyra.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.16.5",
+		"java": ">=16",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

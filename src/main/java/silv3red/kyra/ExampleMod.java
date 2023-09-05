@@ -13,7 +13,7 @@ public class ExampleMod implements ModInitializer {
 
 	// an instance of our new item
     public static final Item CUSTOM_ITEM =
-      Registry.register(Registry.ITEM, new Identifier("kyra", "custom_item"),
+      Registry.register(Registry.ITEM, new Identifier("kyra", "ramen"),
         new Item(new FabricItemSettings()));
 
 	// This logger is used to write text to the console and the log file.

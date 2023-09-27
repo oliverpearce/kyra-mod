@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      " WS",
+      " B "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wheat"
+      },
+      "B": {
+        "item": "minecraft:bowl"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "kyra:ramen",
+      "count": 1
+    }
+  }
